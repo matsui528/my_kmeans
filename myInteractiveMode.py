@@ -1,5 +1,5 @@
-#%%
-import numpy as np
-#%%
-print("piyo")
 # %%
+import numpy as np
+
+# %%
+print("piyo")
