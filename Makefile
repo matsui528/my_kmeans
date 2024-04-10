@@ -7,4 +7,4 @@ target:
 	@printf "\n\033[91mALWAYS backup your code by Git!!!! (by Prof. Matsui)\033[0m\n\n"
 
 clean:
-	@echo "no garbage data for now, nothing to do"
+	rm -rf *.data
