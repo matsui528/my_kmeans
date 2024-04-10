@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "my-kmeans"
-version = "0.1.0"
+version = "999.999.999"
 description = ""
 authors = ["Takuto-Onikubo <onikubo-takuto386@g.ecc.u-tokyo.ac.jp>"]
 readme = "README.md"
