@@ -1,5 +1,6 @@
 name: 'Simply saying hello'
-on: [push]
+
+on: [push]
 
 jobs:
   say-hello:
