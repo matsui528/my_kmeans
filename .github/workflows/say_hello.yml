@@ -1,20 +1,19 @@
 name: 'Simply saying hello'
-
+
 on: [push]
-
 jobs:
-  say-hello:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out
-        uses: actions/checkout@v4
-
-      - name: Run basic commands
-        run: |
-          pwd
-          ls
-          df
-
-      - name: Say hello
-        run: |
-          echo 'Hello World!'
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+      - name: Run basic commands
+        run: |
+          pwd
+          ls
+          df
+      - name: Say hello
+        run: |
+          echo 'Hello World!'
+        
+        
